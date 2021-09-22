@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('FjallaOne-Regular/Fjalla One.ttf') format('truetype');
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Header/Main */
+  body{
+    position: relative;
+    top: 160px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: seashell;
+  }
+  
+  nav {
+      position: fixed;
+      top: 0px;
+      z-index: 5;
+      height: 185px;
+      border-bottom: 1px solid black;
+      width: 100%;
+      background-color: #9dc7e994;
+      color: #f8f8f8;
+      float: left;
+      align-items: space-around;
+      text-align: center;
+      display: block;
+  }
+  
+  nav ul {
+      margin: 0 auto;
+      padding: 25px 20px;
+      display: inline-block;
+  }
+  
+  nav li {
+      font-size: 1.5em;
+      display: inline-block;
+      margin: 0px 50px;
+      text-align: center;
+  }
+  
+  nav a {
+    border: 2px double #000000;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 10px;
+    }
+  
+    nav a:hover {
+      color: red;
+    }
+  
+    nav a:active {
+      color: purple;
+      margin-top: 5px;
+    }
+  /* Typographic */
+  
+  .FjallaOne {
+    font-family: 'Fjalla One';
+  }
+  
+  .calistoga {
+    font-family: 'Calistoga';
+  
+  
+  .lilyscriptone {
+    font-family: 'Lily Script One';
+  }
+  
+  h1 {
+    font-family: 'Calistoga';
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: 'Fjalla One';
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-family: 'Lily Script One';
+    font-weight: 500;
+    font-size: 19px;
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  /* Colors */
+  
+  #colors {
+      border: 1px solid black;
+      height: 350px;
+      margin: 150px 150px;
+      flex-direction: row; 
+      align-self: center;
+  }
+  
+  /* fonts */
+  
+  #fonts {
+      margin: 150px 160px;
+      height: 750px;
+      border: 1px solid black;
+      flex-direction: row; 
+      display: flexbox;
+      align-self: center;
+  }
+  
+  /* Text-style */
+  
+  #text-style {
+      margin: 150px 150px;
+      height: 600px;
+      border: 1px solid black;
+      flex-direction: row; 
+      display: flexbox;
+      align-self: center;
+  }
+  
+  /* random */
+  
+  .title {
+      width: 100%;
+      border-bottom: 1px solid black;
+      padding:20px 0px;
+      margin: 0px;
+      text-align: center;
+      text-decoration: underline;
+  }
+  
+  
